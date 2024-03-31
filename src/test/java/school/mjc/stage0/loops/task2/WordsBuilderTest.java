@@ -11,6 +11,6 @@ class WordsBuilderTest extends BaseIOTest {
 
         builder.buildPhrase('l', 'o', 'o', 'p', 's', ' ', 'a', 'r', 'e', ' ', 'c', 'o', 'o', 'l');
 
-        assertOutEquals("loops are cool");
+        assertOutEquals("loops are cool\n");
     }
 }
